@@ -105,13 +105,6 @@ Invoke-RestMethod http://127.0.0.1:8000/forecast -Method POST -Body $body -Conte
 Tech Stack
 ComponentTechnologyBackend APIFastAPI, UvicornML ModelsScikit-LearnData ProcessingPandas, NumPyLanguagePythonDocsSwagger UIOSWindows
 
-Why This Project?
-
-End-to-end ML + API pipeline
-Real-time prediction & forecasting
-Clean, modular, resume-ready project
-Perfect for ML/DS/IoT portfolios
-
 
 Future Enhancements
 
