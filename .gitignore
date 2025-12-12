@@ -1,0 +1,20 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+data/raw/
+data/large/
+
+# Exclude all CSVs unless sample
+*.csv
+!data/processed/sample_processed_sensor_data.csv
+
+# If models are small, include them:
+!models/fault_rf.pkl
+!models/forecast_h1.pkl
+
+.DS_Store
+Thumbs.db
+.vscode/
